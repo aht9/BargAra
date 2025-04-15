@@ -8,7 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda39742-f497-4a49-95de-3e64109f17d6" name="Changes" comment="" />
+    <list default="true" id="bda39742-f497-4a49-95de-3e64109f17d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +149,7 @@
       <workItem from="1744699402256" duration="655000" />
       <workItem from="1744700078627" duration="310000" />
       <workItem from="1744700425592" duration="561000" />
+      <workItem from="1744701007536" duration="714000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="initialize project">
       <option name="closed" value="true" />
