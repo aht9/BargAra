@@ -1,0 +1,6 @@
+@BargAra_HostAddress = http://localhost:5134
+
+GET {{BargAra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

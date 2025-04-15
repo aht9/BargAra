@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargAra", "BargAra\BargAra.csproj", "{3F45BF3D-78C7-48E3-9D71-34C7C5EADE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6651E9E-458C-4B6F-863E-EC9BBE30A52A}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargAra.Domain", "BargAra.Domain\BargAra.Domain.csproj", "{BBDAFA6D-5175-4E49-A8FB-09DA7D37BDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargAra.Infrastructure", "BargAra.Infrastructure\BargAra.Infrastructure.csproj", "{5170998C-68C0-476F-A6A3-989E9429655E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargAra.Application", "BargAra.Application\BargAra.Application.csproj", "{6226744B-37B6-4096-8525-DC069B74BA4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F45BF3D-78C7-48E3-9D71-34C7C5EADE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F45BF3D-78C7-48E3-9D71-34C7C5EADE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F45BF3D-78C7-48E3-9D71-34C7C5EADE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F45BF3D-78C7-48E3-9D71-34C7C5EADE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDAFA6D-5175-4E49-A8FB-09DA7D37BDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDAFA6D-5175-4E49-A8FB-09DA7D37BDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDAFA6D-5175-4E49-A8FB-09DA7D37BDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDAFA6D-5175-4E49-A8FB-09DA7D37BDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5170998C-68C0-476F-A6A3-989E9429655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5170998C-68C0-476F-A6A3-989E9429655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5170998C-68C0-476F-A6A3-989E9429655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5170998C-68C0-476F-A6A3-989E9429655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6226744B-37B6-4096-8525-DC069B74BA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6226744B-37B6-4096-8525-DC069B74BA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6226744B-37B6-4096-8525-DC069B74BA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6226744B-37B6-4096-8525-DC069B74BA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

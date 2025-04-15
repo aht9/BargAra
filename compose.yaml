@@ -1,0 +1,6 @@
+﻿services:
+  bargara:
+    image: bargara
+    build:
+      context: .
+      dockerfile: BargAra/Dockerfile
