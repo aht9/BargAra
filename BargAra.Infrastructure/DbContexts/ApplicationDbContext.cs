@@ -1,12 +1,14 @@
-﻿using BargAra.Infrastructure.Helper;
-
-namespace BargAra.Infrastructure.DbContexts;
+﻿namespace BargAra.Infrastructure.DbContexts;
 
 public class ApplicationDbContext : DbContext, IUnitOfWork
 {
     private IMediator _mediator;
     private IDbContextTransaction _currentTransaction;
+    public const string DEFAULT_SCHEMA = "Automation";
 
+    public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
@@ -18,7 +20,14 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //modelBuilder.ApplyConfiguration(new OrderEntityTypeConfiguration());
+        modelBuilder.Ignore<IdentityUserRole<long>>();
+        modelBuilder.Ignore<IdentityUserLogin<long>>();
+        modelBuilder.Ignore<IdentityUserClaim<long>>();
+        modelBuilder.Ignore<IdentityRoleClaim<long>>();
+        modelBuilder.Ignore<IdentityUserToken<long>>();
+        
+        modelBuilder.ApplyConfiguration(new UserEntityTypeConfiguration());
+        modelBuilder.ApplyConfiguration(new RoleEntityTypeConfiguration());
     }
 
     public IDbContextTransaction GetCurrentTransaction() => _currentTransaction;

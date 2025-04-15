@@ -10,4 +10,8 @@
       <ProjectReference Include="..\BargAra.Domain\BargAra.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="EntityConfigurations\Automation\" />
+    </ItemGroup>
+
 </Project>

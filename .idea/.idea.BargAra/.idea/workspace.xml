@@ -9,7 +9,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda39742-f497-4a49-95de-3e64109f17d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/ICompanyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/IRoleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/RoleEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/UserEntityTypeConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/UserAggregate/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/UserAggregate/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/BargAra.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/BargAra.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/BargAra.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/BargAra.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/DbContexts/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/DbContexts/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra/Extensions/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/Extensions/WebApplicationBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +171,8 @@
       <workItem from="1744699402256" duration="655000" />
       <workItem from="1744700078627" duration="310000" />
       <workItem from="1744700425592" duration="561000" />
-      <workItem from="1744701007536" duration="714000" />
+      <workItem from="1744701007536" duration="4353000" />
+      <workItem from="1744728397290" duration="704000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="initialize project">
       <option name="closed" value="true" />

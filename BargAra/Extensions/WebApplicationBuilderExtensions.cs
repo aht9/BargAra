@@ -47,8 +47,8 @@ public static class WebApplicationBuilderExtensions
     
     public static WebApplicationBuilder AddAppAuthentication(this WebApplicationBuilder builder)
     {
-        var dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");cd
-        builder.Services.AddIdentity<User, IdentityRole>()
+        var dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        builder.Services.AddIdentity<User, Role>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
         

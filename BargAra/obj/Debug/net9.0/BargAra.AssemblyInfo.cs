@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BargAra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2f255300b479268a7c44254dc0ec547535dc10")]
 [assembly: System.Reflection.AssemblyProductAttribute("BargAra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BargAra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
