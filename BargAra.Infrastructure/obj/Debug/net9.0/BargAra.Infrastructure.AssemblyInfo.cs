@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BargAra.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2f255300b479268a7c44254dc0ec547535dc10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+425e4db19ff2a2405561b30368167a8346053366")]
 [assembly: System.Reflection.AssemblyProductAttribute("BargAra.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BargAra.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

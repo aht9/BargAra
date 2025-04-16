@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <Folder Include="AggregateModel\AutomationModels\" />
+      <Folder Include="AggregateModel\IdentityModels\Relations\" />
     </ItemGroup>
 
 </Project>

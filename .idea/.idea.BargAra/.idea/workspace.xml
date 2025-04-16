@@ -9,27 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda39742-f497-4a49-95de-3e64109f17d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/ICompanyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/IRoleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/RoleEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/UserEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BargAra.Domain/GlobalUsings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BargAra/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Application/obj/Debug/net9.0/BargAra.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/UserAggregate/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/UserAggregate/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/CompanyAggregate/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/Relations/CompanyRole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/IRoleRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/RoleAggregate/Role.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/AggregateModel/IdentityModels/UserAggregate/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Domain/BargAra.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/BargAra.Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Domain/obj/Debug/net9.0/BargAra.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/BargAra.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/BargAra.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/DbContexts/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/DbContexts/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/RoleEntityTypeConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/EntityConfigurations/Identity/RoleEntityTypeConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/GlobalUsings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra.Infrastructure/obj/Debug/net9.0/BargAra.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra/Extensions/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/Extensions/WebApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BargAra/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/GlobalUsings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BargAra/obj/Debug/net9.0/BargAra.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -54,7 +50,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Developer/RiderProjects/BargAra/BargAra/Extensions/WebApplicationBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d382df578ec93391918cfaa4ce7f4b8f35c9aed1241d6556dc9be26df13c/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -172,7 +168,8 @@
       <workItem from="1744700078627" duration="310000" />
       <workItem from="1744700425592" duration="561000" />
       <workItem from="1744701007536" duration="4353000" />
-      <workItem from="1744728397290" duration="704000" />
+      <workItem from="1744728397290" duration="2921000" />
+      <workItem from="1744783139390" duration="4189000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="initialize project">
       <option name="closed" value="true" />
@@ -195,7 +192,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
       <updated>1744700761840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎−۰۰۰۰۴" summary="Add identity models and configurations for Company and Role">
+      <option name="closed" value="true" />
+      <created>1744729339580</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1744729339580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +223,7 @@
     <MESSAGE value="initialize project" />
     <MESSAGE value="initialize Project" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Add identity models and configurations for Company and Role" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add identity models and configurations for Company and Role" />
   </component>
 </project>
