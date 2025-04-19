@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using BargAra.Domain.AggregateModel.IdentityModels.Relations;
 using BargAra.Domain.AggregateModel.RoleAggregate;
 using BargAra.Domain.SeedWork;
 
@@ -43,12 +44,12 @@ public class Company : Entity, IAggregateRoot
 
     [Required] public bool IsReal { get; private set; }
 
-    public long? ParentId { get; private set; }
+    public Guid? ParentId { get; private set; }
     public Company Parent { get; private set; }
     public virtual ICollection<Company> Children { get; private set; } = new List<Company>();
     
-    private readonly List<Role> _roles = new List<Role>();
-    public virtual IReadOnlyCollection<Role> Roles => _roles.AsReadOnly();
+    private readonly List<CompanyRole> _companyRoles = new();
+    public IReadOnlyCollection<CompanyRole> CompanyRoles => _companyRoles.AsReadOnly();
 
     // Constructor for creating a new Company
     public Company(string name, string address, string nationalId, bool isReal)
@@ -83,22 +84,19 @@ public class Company : Entity, IAggregateRoot
 
     // Business logic methods
 
-    public void AddRole(string roleName, string DisplayName)
+    public void AssignRole(Role role)
     {
-        var role = new Role(roleName, DisplayName);
-        typeof(Role)
-            .GetProperty("CompanyId", BindingFlags.Instance | BindingFlags.NonPublic)
-            ?.SetValue(role, this.Id);
-        
-        _roles.Add(role);
+        if (_companyRoles.Any(cr => cr.RoleId.ToString() == role.Id))
+            throw new InvalidOperationException("Role already assigned.");
+
+        _companyRoles.Add(new CompanyRole(this.Id, role.Id));
     }
 
-    public void RemoveRole(string roleName)
+    public void RemoveRole(Guid roleId)
     {
-        var role = _roles.FirstOrDefault(r => r.Name == roleName);
-        if (role == null)
-            throw new InvalidOperationException($"Role {roleName} does not exist.");
-        _roles.Remove(role);
+        var existing = _companyRoles.FirstOrDefault(cr => cr.RoleId == roleId);
+        if (existing != null)
+            _companyRoles.Remove(existing);
     }
     
     public void SetFamily(string? family)

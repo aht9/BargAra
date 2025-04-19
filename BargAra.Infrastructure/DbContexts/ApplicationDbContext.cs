@@ -8,6 +8,9 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
 
     public DbSet<User> Users { get; set; }
     public DbSet<Role> Roles { get; set; }
+    public DbSet<Company> Companies { get; set; }
+    public DbSet<CompanyRole> CompanyRoles { get; set; }
+    public DbSet<UserCompanyRole> UserCompanyRoles { get; set; }
     
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {

@@ -4,8 +4,8 @@ namespace BargAra.Domain.SeedWork;
 
 public abstract class Entity
 {
-    long _Id;
-    public virtual long Id
+    Guid _Id;
+    public virtual Guid Id
     {
         get
         {
@@ -19,7 +19,7 @@ public abstract class Entity
 
     public bool IsTransient()
     {
-        return this.Id == default(Int64);
+        return this.Id == default(Guid);
     }
 
     private List<INotification> _domainEvents;

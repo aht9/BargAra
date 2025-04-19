@@ -1,6 +1,8 @@
 ﻿// Global using directives
 
 global using System.Data;
+global using BargAra.Domain.AggregateModel.IdentityModels.CompanyAggregate;
+global using BargAra.Domain.AggregateModel.IdentityModels.Relations;
 global using BargAra.Domain.AggregateModel.IdentityModels.UserAggregate;
 global using BargAra.Domain.AggregateModel.RoleAggregate;
 global using BargAra.Domain.AggregateModel.UserAggregate;
